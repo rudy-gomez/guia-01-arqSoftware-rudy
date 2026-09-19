@@ -39,35 +39,53 @@ Espero fortalecer mi criterio para tomar decisiones de diseño de software con f
 
 Se creó la carpeta del proyecto, se inicializó el repositorio Git y el proyecto Node.js, y se instalaron las dependencias `express` (producción) y `nodemon` (desarrollo).
 
-<div align="center">
-
-![Figura 1. Creación de la carpeta e inicialización de Git y npm](docs/evidencias/paso-01a.png)
+<table align="center" width="100%">
+<tr>
+<td align="center">
 
 **Figura 1.** Comandos `mkdir`, `cd`, `git init` y `npm init -y`, mostrando la generación del archivo `package.json`.
 
-![Figura 2. Instalación de dependencias](docs/evidencias/paso-01b.png)
+<img src="docs/evidencias/paso-01a.png" width="700" alt="Figura 1. Creación de la carpeta e inicialización de Git y npm">
+
+</td>
+</tr>
+</table>
+
+<br>
+
+<table align="center" width="100%">
+<tr>
+<td align="center">
 
 **Figura 2.** Instalación de `express` como dependencia de producción y de `nodemon` como dependencia de desarrollo.
 
-</div>
+<img src="docs/evidencias/paso-01b.png" width="700" alt="Figura 2. Instalación de dependencias">
+
+</td>
+</tr>
+</table>
 
 ### 🔹 Paso 02 — Estructura de carpetas
 
 Se organizó el proyecto separando responsabilidades desde el inicio: `docs/` para documentación, `src/` para el código fuente, y `tests/` reservada para pruebas futuras.
 
-<div align="center">
-
-![Figura 3. Estructura de carpetas del proyecto](docs/evidencias/paso-02.png)
+<table align="center" width="100%">
+<tr>
+<td align="center">
 
 **Figura 3.** Resultado del comando `tree /f`, mostrando la estructura final del proyecto: `docs/`, `docs/decisiones/`, `src/`, `tests/`, junto con `package.json`, `package-lock.json` y `.gitignore`.
 
-</div>
+<img src="docs/evidencias/paso-02.png" width="700" alt="Figura 3. Estructura de carpetas del proyecto">
+
+</td>
+</tr>
+</table>
 
 ---
 
 ## 🗂️ Estructura del proyecto
 
-```
+```text
 guia-01-arqSoftware/
 ├── docs/
 │   ├── 00-caso-de-estudio.md
